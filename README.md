@@ -2,7 +2,7 @@
 
 This public repository hosts application-only releases for My Adult App.
 
-Install `My.Adult.App.Setup.exe` for a standard per-user Windows installation (not a portable app). After installation, the app's **Update app** button checks the latest stable release, verifies the update package against its SHA-256 checksum, installs it, and restarts the app. Release files contain app code only, not personal videos, pictures, library records, or settings.
+Run `My.Adult.App.Setup.exe` for a standard Windows installation (not portable). It installs the program to `D:\My Adult App` and stores the app's library and settings in `Documents\My Adult App`. The target computer needs a D: drive. In-app updates download a SHA-256-verified app-code patch, request Windows permission when needed to update D:, then restart the app. Release assets do not include personal videos, pictures, library records, or settings.
 
 Each stable release includes:
 - `My.Adult.App.Setup.exe` and its `.sha256` checksum for first-time installation
